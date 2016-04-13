@@ -1,0 +1,421 @@
+
+
+
+/*******************************************
+General
+*********************************************/
+
+body {
+  font-family: 'Source Code Pro', sans-serif;
+  margin:0px;
+  background-image: url("../img/HighT.jpg"), url("../img/HighT2.jpg");
+  background-repeat:repeat-x, repeat;
+  
+  
+  
+ 
+}
+
+#Shop-Page-Background{
+	clear:both;
+	overflow:auto;
+	width:100%;
+	background:#ccc;
+}
+
+
+*	{margin:0;}
+	a {
+		text-decoration: none;
+	}
+
+nav{
+text-align:center;
+padding: 10px 0;
+margin: 20px 0px 0px;
+}
+
+
+
+nav li {
+  display:inline-block;
+  margin-left:65px;
+}
+
+nav a {
+  font-weight:300;
+  padding:5px;
+}
+
+img {
+	float:left;
+  max-width:100%;
+}
+
+/*******************************************
+Colors
+*********************************************/
+h1,h2,p{
+	color:#0C090A;
+	text-align:left;
+}
+nav {
+	max-width:100%;
+	background: #f9f93e;
+	
+}
+
+a {
+  color:#0C090A;
+}
+
+
+/* nav link  */
+nav a, nav a:visited {
+  color: #000;
+}
+
+
+
+/* selected nav link */
+.selected,nav a:hover {
+  color: #4182f8;
+}
+	
+}
+
+
+
+section.Links {
+	
+	float:left;
+	width:50%;
+	
+	
+}
+
+article{
+	
+	clear:both;
+	overflow:auto;
+	width:100%;
+	color:white;
+	
+}
+
+
+
+/* The figure (image too)  css*/
+.part1{
+	float:left;
+	margin:10px;
+	border:1px solid yellow;
+	background-color:black;
+	
+}
+
+.part2{
+	float:right;
+	padding:0px;
+	margin:10px;
+	border:1px solid yellow;
+	background-color:black;
+	
+}
+.part3{
+	float:left;
+	padding:0px;
+	margin:10px;
+	border:1px solid yellow;
+	background-color:black;
+}
+
+.part4{
+	float:right;
+	padding:0px;
+	margin:10px;
+	border:1px solid yellow;
+	background-color:black;
+}
+
+
+/* img caption*/
+figcaption{
+	float:left;
+	text-align:left;
+}
+
+/* The Links on the side */
+aside{
+	background-color:#f9f93e;
+	width:230px;
+	float:left;
+	color:#000;
+	padding:0px 0px 0px 20px;
+}
+
+/*Link hover color */
+aside section a:hover{
+	color:#4182f8;
+	background-color:#f9f93e;
+	
+}
+
+/* h3 and h4 (Spects to our product)*/
+#Words{
+	text-align:center;
+	float:far-right;
+	margin: 80px 0px 5px 0px;
+	color:black;
+	border:2px solid #000;
+	background:#8493ff;
+}
+
+#Words2{
+	text-align:center;
+	float:far-left;
+	margin: 50px 0px 5px 0px;
+	color:black;
+	border:2px solid #000;
+	background:#82ff7c;
+}
+
+#Words3{
+	text-align:center;
+	float:far-right;
+	margin: 75px 0px 5px 0px;
+	color:black;
+	border:2px solid #000;
+	background:#ffbfbf;
+}
+
+#Words4{
+	text-align:center;
+	float:far-left;
+	margin: 80px 0px 5px 0px;
+	color:black;
+	border:2px solid #000;
+	background:#ff3a3a;
+}
+/*The Black Background surronding Products */
+.GreenPic{
+	float:left;
+	padding:0px;
+	margin:0px;
+	
+	background-color:black;
+}
+
+.BluePic{
+	float:left;
+	padding:0px;
+	margin:0px;
+	
+	background-color:black;
+}
+
+.RedPic{
+	float:left;
+	padding:0px;
+	margin:0px;
+	
+	background-color:black;
+}
+
+.PinkPic{
+	float:left;
+	padding:0px;
+	margin:0px;
+	
+	background-color:black;
+}
+
+.BabyBluePic{
+	float:left;
+	padding:0px;
+	margin:0px;
+	background-color:black;
+}
+.GoldPic{
+	float:left;
+	padding:0px;
+	margin:0px;
+	background-color:black;
+}
+
+#Product1{
+	padding-bottom:0px;
+	text-align:left;
+	float:far-left;
+	margin: 0px 0px -5px 0px;
+	color:yellow;
+	border:2px solid #000;
+	background:#82ff7c;
+}
+
+#Product2{
+	text-align:left;
+	float:far-left;
+	margin: 20px 0px 0px 0px;
+	color:black;
+	border:2px solid #000;
+	background:#8493ff;
+}
+
+#Product3{
+	text-align:left;
+	float:far-left;
+	margin: 20px 0px 5px 0px;
+	color:black;
+	border:2px solid #000;
+	background:#ff3a3a;
+}
+
+#Product4{
+	text-align:left;
+	float:far-left;
+	margin: 20px 0px 5px 0px;
+	color:black;
+	border:2px solid #000;
+	background:#ffbfbf;
+}
+
+#Product5{
+	text-align:left;
+	float:far-left;
+	margin: 20px 0px 0px 0px;
+	color:black;
+	border:2px solid #000;
+	background:#b1e4e4;
+}
+
+#Product6{
+	text-align:right;
+	float:far-right;
+	margin: 20px 0px 0px 0px;
+	color:black;
+	border:2px solid #000;
+	background:#fce03f;
+}
+
+/* the side links but just the anchor elements*/
+aside section a {
+	display:block;
+	color:#000;
+	padding:15px;
+}
+
+
+header{
+
+	background-color:#0C090A;
+}
+footer{
+	text-align:center;
+	clear:both;
+	background-color:#f9f93e;
+	height:40px;
+}
+
+
+#first-sight{
+	text-align:center;
+	background-color:#f9f93e;
+	padding:0px;
+	color:blue;
+}
+
+
+
+
+
+.btn {
+	float:right;
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 27;
+  -moz-border-radius: 27;
+  border-radius: 27px;
+  text-shadow: 1px 1px 3px #666666;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+	padding:10px 20px 10px 20px;
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+logo,h2{
+	color:white;
+}
+
+.Pro-Description p{
+	margin:20px 20px 20px 20px;
+	
+	
+}
+
+.price{
+	
+	text-align:right;
+	color:black;
+}
+
+.dead{
+	float:center;
+	
+}
+
+.Stars{
+	float:right;
+}
+
+/* Phone number on support */
+#wrapper h1{
+	text-align:center;
+	border:2px solid black;
+	font-size:55px;
+	background-color:#f9f93e;
+	margin:0px 0px 0px 0px;
+}
+/* FAQ's */
+.container{
+	
+	margin:20px;
+	padding:30px;
+	background-color:#ccc;
+	margin:0px 0px 0px 0px;
+	
+}
+
+.sampleMovie{
+	margin-right:auto;
+	margin-left:auto;
+	display:block;
+	
+	background:yellow;
+}
+
+.video-title h1{
+	border:1px solid black;
+	margin:0px 0px 0px 0px;
+	padding:15px;
+	text-align:center;
+	background-color:#1f3e76;
+	
+}
+

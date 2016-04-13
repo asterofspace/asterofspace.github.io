@@ -1,0 +1,115 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<title>About</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css"  >
+	
+</head>
+
+	<body>
+			<div class="container">
+			<!-- Header -->
+				<div class="row text-center fill-color text-white">
+					<div class="col-md-12 ">
+						<img  class="img-circle img-responsive img-thumbnail margin-top" src="img/me.jpg" width="200" height="300" alt="Photo of User" />
+			
+				<div class="col-md-12">
+					<h2 class="text-slim">Enrique Villalobos</h2>
+						<h6 class="text-thin">A.K.A ASTEROFSPACE</h6>
+			</div>
+		</div>
+	</div>
+		
+<!-- ABOUT ME -->
+<div class="row text-center">
+	<div class="col-md-12">
+		<h2>About Me</h2>
+			<p> Hi! Im a Highschool student inspired by.....</p>
+	</div>
+</div>
+
+<div class="row text-center">
+	<div class="col-md-12">
+		<img class="img-responsive" src="img/project.jpg" alt="Project 1" />
+			<h3>My Website's</h3>
+	</div>
+</div>
+			
+<!-- My Work -->
+<div class="row text-center">
+	<div class="col-xs-4">
+		<img class="img-responsive" src="img/darth.jpg" alt="Darth Image"  >
+		<p>Placeholder</p>
+	</div>
+	
+	
+		<div class="col-xs-4">
+			<img class="img-responsive" src="img/darth.jpg"  alt="Darth Image" />
+			<p>Star</p>
+		</div>
+		
+		<div class="col-xs-4">
+			<img class="img-responsive" src="img/darth.jpg"  alt="Darth Image" />
+			<p>Wars</p>
+		</div>
+	</div>
+	
+	<hr />
+	<!-- Contact Form -->
+	<div class="row text-center">
+		<div class="col-md-12">
+			<h2>Contact Me</h2>
+		</div>
+	</div>
+<form role="form" action="handle_form.php" method="post" id="form">
+	<div class="form-group">
+		<label for="name" class="col-md-2">Name </label>
+				<input type="text" class="form-control" name="fn" placeholder="First" value="" required="true" />
+				<script src="js/validateFields.js" type="text/javascript"></script>
+			</div>
+			<!--Last Name Input -->
+				<div class="form-group">
+					<input type="text" class="form-control" name="ln" placeholder="Last" required="required"/>
+			</div>
+			<!--Email Input -->
+		     <div class="form-group">
+				<label for="email" >Email</label>
+						<input type="email" placeholder="example@example.com" class="form-control" name="usr-email" />
+		</div>
+
+		<!--Cell Contact -->
+
+		<div class="form-group">
+				<label for="carrierList">Select Carrier:</label>
+		  				<select required="required" class="form-control" name="usrCarrier">
+		  				    <option value="">None</option>
+		    				<option value="@txt.att.net">AT&T</option>
+		   					<option value="@vtext.com">Verizon</option>
+		    				<option value="@messaging.sprintpcs.com">Sprint</option>
+		    				<option value="@myboostmobile.com">Boost</option>
+		  				</select>
+		  								<br>
+						<input type="tel" placeholder="Phone Number" required="required" class="form-control" name="usrCell" />
+		</div>
+			<!-- Comments -->
+			<div class="form-group">
+				<label for="comments">Comments</label>
+					<textarea type="text" rows="3"class="form-control" name="comments" placeholder="Tell Me your Problems :)"></textarea>
+					</div>
+					
+		<!--Button -->
+			<div class="form-group">
+				<div class="col-md-12">
+					<button type="submit" class="btn btn-primary col-md-12">Submit</button>
+					</div>
+				</div>
+	</form>
+			
+			<!-- Last Div -->
+	</div>
+
+</body>
+</html>

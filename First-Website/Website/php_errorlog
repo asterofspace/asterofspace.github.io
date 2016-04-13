@@ -1,0 +1,8 @@
+[03-Mar-2016 04:47:20 CST6CDT] PHP Notice:  Undefined index: title in /home/asterofs/public_html/First-Website/Website/handle_form.php on line 42
+[03-Mar-2016 04:47:20 CST6CDT] PHP Notice:  Undefined index: name in /home/asterofs/public_html/First-Website/Website/handle_form.php on line 43
+[03-Mar-2016 04:47:20 CST6CDT] PHP Notice:  Undefined index: response in /home/asterofs/public_html/First-Website/Website/handle_form.php on line 44
+[03-Mar-2016 04:47:20 CST6CDT] PHP Notice:  Undefined index: comments in /home/asterofs/public_html/First-Website/Website/handle_form.php on line 45
+[03-Mar-2016 04:47:20 CST6CDT] PHP Notice:  Undefined index: fullname in /home/asterofs/public_html/First-Website/Website/dev-comments.php on line 33
+[03-Mar-2016 04:47:20 CST6CDT] PHP Notice:  Undefined index: devname in /home/asterofs/public_html/First-Website/Website/dev-comments.php on line 34
+[03-Mar-2016 04:47:20 CST6CDT] PHP Notice:  Undefined index: devrate in /home/asterofs/public_html/First-Website/Website/dev-comments.php on line 35
+[11-Mar-2016 19:29:12 CST6CDT] PHP Notice:  Undefined index: response in /home/asterofs/public_html/First-Website/Website/handle_form.php on line 44

@@ -1,0 +1,69 @@
+<?php 
+	  ini_set ('display_errors',1);
+	  error_reporting (E_ALL | E_STRICT);
+	  
+	  $firstName = $_POST['fn'];
+	$lastName = $_POST['ln'];
+	$comments = $_POST['comments'];
+	$usrEmail = $_POST['usr-email'];
+	$to = 'asterofspace@hotmail.com';
+	$subject = $firstName." ".$lastName." "."Contacted Me";
+	
+$headers = "MIME-Version: 1.0" . "\r\n";
+ $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
+// More headers
+  $headers .= 'From: The Darkside <info@asterofspace.com>' . "\r\n";
+   $headers .= 'Cc: myboss@darthvader.com' . "\r\n";
+	
+	$feedbackErr = "Please Fill All Forms";
+	
+	$body = "
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset='8-UTF'/>
+		<meta name='viewport' content='width=device-width,initial-scale=1,user-scalable=no'>
+		<link rel='stylesheet' href='css/bootstrap.css'/> 
+		<link rel='stylesheet' href='css/styles.css'/>
+	</head>
+
+	<body>
+		<div style='text-align:center;'>
+			<h1 style= 'background:#4099FF;'>Contact Form</h1>
+				<h2><strong style='text-transform:capitalize;'>$firstName $lastName,</strong>
+					<br> has left you a message:<h4><b>$comments</b></h4>
+				</div>
+			<hr>
+				<h6 style='text-align:center'>From: $usrEmail </h6> 
+		
+		</body>
+</html> ";
+	
+	
+	
+	mail($to,$subject,$body,$headers);
+	?>
+	
+	
+<?php	print " 
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset='8-UTF'/>
+		<meta name='viewport' content='width=device-width,initial-scale=1,user-scalable=no'>
+		<link rel='stylesheet' href='css/bootstrap.css'/> 
+		<link rel='stylesheet' href='css/styles.css'/>
+	</head>
+		<div class='text-center'>
+			<h2> Thank You! <br> <b class='text-capitalize'>$firstName $lastName</b> for your input.</h2>
+					<h3> You said: $comments
+				</h3>
+				<h6>You Sent an Email From: <a href='$usrEmail'>$usrEmail</a>
+	</h6>
+</div>
+</html>
+		"
+
+	
+	
+ ?>
