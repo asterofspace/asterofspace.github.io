@@ -21,7 +21,6 @@ $usrEmail = $_POST['usr-email'];
 $usrCarrier = $_POST['usrCarrier'];
 $usrCell 	= $_POST['usrCell'];
 $masterCell = "7604641544@vtext.com";
-$tmp = " ";
 
 // $mail->SMTPDebug = 2;                               // Enable verbose debug output
 
