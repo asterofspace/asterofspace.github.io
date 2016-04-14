@@ -1,0 +1,50 @@
+body{
+color:#555;
+}
+
+.text-white{
+color: #eee;
+}
+
+.text-thin{
+font-weight: 500;
+}
+
+
+
+.title-super{
+font-size: 45px;
+}
+
+.border-radius{
+border-radius: 50%;
+
+}
+
+
+
+.title-logo{
+margin-top: 20px;
+}
+
+
+#features{
+font-weight: 100;
+}
+
+footer{
+margin-top: 20px;
+}
+
+.margin-top{
+margin-top: 15px;
+}
+
+.margin-bottom{
+margin-bottom: 20px;
+}
+.fill-background-blue{
+background-color: #4099FF;
+}
+
+
