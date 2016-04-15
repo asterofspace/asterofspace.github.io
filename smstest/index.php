@@ -1,9 +1,13 @@
  <!DOCTYPE html>
  <html>
  <head>
- 	<meta name="viewport" content="width=device-width">
+ 	<meta name="viewport" content="width=device-width,user-scalable=no">
  	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
  	<link rel="stylesheet" type="text/css" href="css/styles.css">
+ 	
+ 	<link rel="shortcut icon" type="image/icon" href="../img/icon.ico" >
+	<link rel="icon" type="image/png" href="../img/icon.png">
+	<link rel="icon" type="image/x-icon" href="../img/icon.png">
  	<title>SMS</title>
  </head>
  <body>
@@ -15,11 +19,12 @@
 		<div class="form-group">
 				<label for="carrierList">Select Carrier:</label>
 		  				<select required="required" class="form-control" name="usrCarrier">
-		  				    <option value="">None</option>
+		  				    <option value="">Carrier</option>
 		    				<option value="@txt.att.net">AT&T</option>
 		   					<option value="@vtext.com">Verizon</option>
 		    				<option value="@messaging.sprintpcs.com">Sprint</option>
 		    				<option value="@myboostmobile.com">Boost</option>
+		    				<option value="@mymetropcs.com">Metro PCS</option>
 		  				</select>
 		  								<br>
 						<input type="tel" placeholder="Phone Number" required="true" class="form-control" name="usrCell" />
