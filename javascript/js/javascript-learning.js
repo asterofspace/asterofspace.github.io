@@ -1,0 +1,1 @@
+var msg = "<p><b>Page Title: </b>" + document.title + "<br /> ";
