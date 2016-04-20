@@ -8,7 +8,7 @@
  	<link rel="shortcut icon" type="image/icon" href="../img/icon.ico" >
 	<link rel="icon" type="image/png" href="../img/icon.png">
 	<link rel="icon" type="image/x-icon" href="../img/icon.png">
- 	<title>SMS</title>
+ 	<title>SMS Test</title>
  </head>
  <body>
  	
